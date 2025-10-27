@@ -17,6 +17,11 @@ gem "stimulus-rails"
 gem "thruster", require: false
 gem "turbo-rails"
 
+# Document Management
+gem "ruby-openai"              # OpenAI API client
+gem "pdf-reader"               # PDF text extraction
+gem "mini_magick"              # Image processing
+
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 group :development, :test do
@@ -39,6 +44,8 @@ group :test do
   gem "formulaic"
   gem "rspec-its"
   gem "shoulda-matchers"
+  gem "vcr"                      # Record HTTP interactions for tests
+  gem "webmock"                  # Mock HTTP requests in tests
 end
 
 group :lint do
