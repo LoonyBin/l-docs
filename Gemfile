@@ -6,7 +6,7 @@ gem "image_processing", "~> 1.2"
 gem "importmap-rails"
 gem "jbuilder"
 gem "kamal", require: false
-gem "rails", "~> 8.1.0"
+gem "rails", "~> 8.1.1"
 gem "pg", "~> 1.1"
 gem "propshaft"
 gem "puma", ">= 5.0"
